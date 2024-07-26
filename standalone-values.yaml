@@ -1,0 +1,6 @@
+postgresql:
+  primary:
+    persistence:
+      enabled: true
+      size: 1Gi
+      mountPath: /bitnami/postgresql

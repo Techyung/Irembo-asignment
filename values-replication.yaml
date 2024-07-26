@@ -1,0 +1,9 @@
+postgresql:
+  primary:
+    replication:
+      enabled: true
+      asyncReplica:
+        hostname: 10.99.142.117
+        port: 5432
+        user: postgres
+        password: 6NfzF8ptUs

@@ -1,0 +1,11 @@
+postgresql:
+      primary:
+        service:
+          type: Loadbalancer
+        persistence:
+          enabled: true
+          size: 1Gi
+          mountPath: /bitnami/postgresql
+      replicaCount: 1
+      replication:
+        enabled: true
